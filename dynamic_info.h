@@ -1805,7 +1805,7 @@ const struct dynamic_info kern_versions[] = {
         .kernelcache__vm_page_array_ending_addr = 0xfffffff00a34e988,
         .kernelcache__vn_kqfilter = 0xfffffff007eecad8,
     },
-    /**************** End iPhone XS MAX Series ***********************/
+    /**************** End iPhone XS MAX Series **********************/
 
     /**************** iPhone 11 Series ***********************/
     // iPhone 11, iOS 16.5
