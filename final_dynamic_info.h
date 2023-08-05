@@ -587,6 +587,7 @@ const struct dynamic_info kern_versions[] = {
   // iOS 16.6 Beta 1 //
     {
         .kern_version = "Darwin Kernel Version 22.6.0: Tue May  9 06:18:35 PDT 2023; root:xnu-8796.140.12.502.1~12/RELEASE_ARM64_T8120",
+        .build_version = "20G5026e",
         .fileglob__fg_ops = 0x28,
         .fileglob__fg_data = 0x40 - 8,
         .fileops__fo_kqfilter = 0x30,
@@ -669,6 +670,7 @@ const struct dynamic_info kern_versions[] = {
   // iOS 16.2 //
     {
         .kern_version = "Darwin Kernel Version 22.2.0: Mon Nov 28 20:09:56 PST 2022; root:xnu-8792.62.2~1/RELEASE_ARM64_T8120",
+        .build_version = "20C65",
         .fileglob__fg_ops = 0x0,
         .fileglob__fg_data = 0x40 - 8,
         .fileops__fo_kqfilter = 0x30,
@@ -1149,6 +1151,7 @@ const struct dynamic_info kern_versions[] = {
   // iOS 16.6 Beta 1 //
     {
         .kern_version = "Darwin Kernel Version 22.6.0: Tue May  9 06:18:35 PDT 2023; root:xnu-8796.140.12.502.1~12/RELEASE_ARM64_T8120",
+        .build_version = "20G5026e",
         .fileglob__fg_ops = 0x28,
         .fileglob__fg_data = 0x40 - 8,
         .fileops__fo_kqfilter = 0x30,
@@ -1233,6 +1236,7 @@ const struct dynamic_info kern_versions[] = {
   // iOS 16.2 //
     {
         .kern_version = "Darwin Kernel Version 22.2.0: Mon Nov 28 20:10:56 PST 2022; root:xnu-8792.62.2~1/RELEASE_ARM64_T8110",
+        .build_version = "20C65",
         .fileglob__fg_ops = 0x0,
         .fileglob__fg_data = 0x40 - 8,
         .fileops__fo_kqfilter = 0x30,
@@ -1715,6 +1719,7 @@ const struct dynamic_info kern_versions[] = {
   // iOS 16.2 //
     {
         .kern_version = "Darwin Kernel Version 22.2.0: Mon Nov 28 20:10:56 PST 2022; root:xnu-8792.62.2~1/RELEASE_ARM64_T8110",
+        .build_version = "20C65",
         .fileglob__fg_ops = 0x0,
         .fileglob__fg_data = 0x40 - 8,
         .fileops__fo_kqfilter = 0x30,
@@ -2197,6 +2202,7 @@ const struct dynamic_info kern_versions[] = {
   // iOS 16.2 //
     {
         .kern_version = "Darwin Kernel Version 22.2.0: Mon Nov 28 20:10:56 PST 2022; root:xnu-8792.62.2~1/RELEASE_ARM64_T8110",
+        .build_version = "20C65",
         .fileglob__fg_ops = 0x0,
         .fileglob__fg_data = 0x40 - 8,
         .fileops__fo_kqfilter = 0x30,
@@ -2677,6 +2683,7 @@ const struct dynamic_info kern_versions[] = {
   // iOS 16.6 Beta 1 //
     {
         .kern_version = "Darwin Kernel Version 22.6.0: Tue May  9 06:16:18 PDT 2023; root:xnu-8796.140.12.502.1~12/RELEASE_ARM64_T8110",
+        .build_version = "20G5026e",
         .fileglob__fg_ops = 0x28,
         .fileglob__fg_data = 0x40 - 8,
         .fileops__fo_kqfilter = 0x30,
@@ -2759,6 +2766,7 @@ const struct dynamic_info kern_versions[] = {
   // iOS 16.2 //
     {
         .kern_version = "Darwin Kernel Version 22.2.0: Mon Nov 28 20:10:56 PST 2022; root:xnu-8792.62.2~1/RELEASE_ARM64_T8110",
+        .build_version = "20C65",
         .fileglob__fg_ops = 0x0,
         .fileglob__fg_data = 0x40 - 8,
         .fileops__fo_kqfilter = 0x30,
@@ -3241,6 +3249,7 @@ const struct dynamic_info kern_versions[] = {
   // iOS 16.2 //
     {
         .kern_version = "Darwin Kernel Version 22.2.0: Mon Nov 28 20:10:56 PST 2022; root:xnu-8792.62.2~1/RELEASE_ARM64_T8110",
+        .build_version = "20C65",
         .fileglob__fg_ops = 0x0,
         .fileglob__fg_data = 0x40 - 8,
         .fileops__fo_kqfilter = 0x30,
@@ -3721,6 +3730,7 @@ const struct dynamic_info kern_versions[] = {
   // iOS 16.6 Beta 1 //
     {
         .kern_version = "Darwin Kernel Version 22.6.0: Tue May  9 06:16:18 PDT 2023; root:xnu-8796.140.12.502.1~12/RELEASE_ARM64_T8110",
+        .build_version = "20G5026e",
         .fileglob__fg_ops = 0x28,
         .fileglob__fg_data = 0x40 - 8,
         .fileops__fo_kqfilter = 0x30,
@@ -3803,6 +3813,7 @@ const struct dynamic_info kern_versions[] = {
   // iOS 16.2 //
     {
         .kern_version = "Darwin Kernel Version 22.2.0: Mon Nov 28 20:10:56 PST 2022; root:xnu-8792.62.2~1/RELEASE_ARM64_T8110",
+        .build_version = "20C65",
         .fileglob__fg_ops = 0x0,
         .fileglob__fg_data = 0x40 - 8,
         .fileops__fo_kqfilter = 0x30,
@@ -4285,6 +4296,7 @@ const struct dynamic_info kern_versions[] = {
   // iOS 16.2 //
     {
         .kern_version = "Darwin Kernel Version 22.2.0: Mon Nov 28 20:10:56 PST 2022; root:xnu-8792.62.2~1/RELEASE_ARM64_T8110",
+        .build_version = "20C65",
         .fileglob__fg_ops = 0x0,
         .fileglob__fg_data = 0x40 - 8,
         .fileops__fo_kqfilter = 0x30,
@@ -4769,6 +4781,7 @@ const struct dynamic_info kern_versions[] = {
   // iOS 16.2 //
     {
         .kern_version = "Darwin Kernel Version 22.2.0: Mon Nov 28 20:10:55 PST 2022; root:xnu-8792.62.2~1/RELEASE_ARM64_T8101",
+        .build_version = "20C65",
         .fileglob__fg_ops = 0x0,
         .fileglob__fg_data = 0x40 - 8,
         .fileops__fo_kqfilter = 0x30,
@@ -5251,6 +5264,7 @@ const struct dynamic_info kern_versions[] = {
   // iOS 16.2 //
     {
         .kern_version = "Darwin Kernel Version 22.2.0: Mon Nov 28 20:10:55 PST 2022; root:xnu-8792.62.2~1/RELEASE_ARM64_T8101",
+        .build_version = "20C65",
         .fileglob__fg_ops = 0x0,
         .fileglob__fg_data = 0x40 - 8,
         .fileops__fo_kqfilter = 0x30,
@@ -5731,6 +5745,7 @@ const struct dynamic_info kern_versions[] = {
   // iOS 16.6 Beta 1 //
     {
         .kern_version = "Darwin Kernel Version 22.6.0: Tue May  9 06:18:36 PDT 2023; root:xnu-8796.140.12.502.1~12/RELEASE_ARM64_T8101",
+        .build_version = "20G5026e",
         .fileglob__fg_ops = 0x28,
         .fileglob__fg_data = 0x40 - 8,
         .fileops__fo_kqfilter = 0x30,
@@ -5813,6 +5828,7 @@ const struct dynamic_info kern_versions[] = {
   // iOS 16.2 //
     {
         .kern_version = "Darwin Kernel Version 22.2.0: Mon Nov 28 20:10:55 PST 2022; root:xnu-8792.62.2~1/RELEASE_ARM64_T8101",
+        .build_version = "20C65",
         .fileglob__fg_ops = 0x0,
         .fileglob__fg_data = 0x40 - 8,
         .fileops__fo_kqfilter = 0x30,
@@ -6293,6 +6309,7 @@ const struct dynamic_info kern_versions[] = {
   // iOS 16.6 Beta 1 //
     {
         .kern_version = "Darwin Kernel Version 22.6.0: Tue May  9 06:18:36 PDT 2023; root:xnu-8796.140.12.502.1~12/RELEASE_ARM64_T8101",
+        .build_version = "20G5026e",
         .fileglob__fg_ops = 0x28,
         .fileglob__fg_data = 0x40 - 8,
         .fileops__fo_kqfilter = 0x30,
@@ -6375,6 +6392,7 @@ const struct dynamic_info kern_versions[] = {
   // iOS 16.2 //
     {
         .kern_version = "Darwin Kernel Version 22.2.0: Mon Nov 28 20:10:55 PST 2022; root:xnu-8792.62.2~1/RELEASE_ARM64_T8101",
+        .build_version = "20C65",
         .fileglob__fg_ops = 0x0,
         .fileglob__fg_data = 0x40 - 8,
         .fileops__fo_kqfilter = 0x30,
@@ -6855,6 +6873,7 @@ const struct dynamic_info kern_versions[] = {
   // iOS 16.6 Beta 1 //
     {
         .kern_version = "Darwin Kernel Version 22.6.0: Tue May  9 06:18:36 PDT 2023; root:xnu-8796.140.12.502.1~12/RELEASE_ARM64_T8101",
+        .build_version = "20G5026e",
         .fileglob__fg_ops = 0x28,
         .fileglob__fg_data = 0x40 - 0x8,
         .fileops__fo_kqfilter = 0x30,
@@ -6939,6 +6958,7 @@ const struct dynamic_info kern_versions[] = {
   // iOS 16.2 //
     {
         .kern_version = "Darwin Kernel Version 22.2.0: Mon Nov 28 20:10:54 PST 2022; root:xnu-8792.62.2~1/RELEASE_ARM64_T8030",
+        .build_version = "20C65",
         .fileglob__fg_ops = 0x0,
         .fileglob__fg_data = 0x40 - 8,
         .fileops__fo_kqfilter = 0x30,
@@ -7421,6 +7441,7 @@ const struct dynamic_info kern_versions[] = {
   // iOS 16.2 //
     {
         .kern_version = "Darwin Kernel Version 22.2.0: Mon Nov 28 20:10:54 PST 2022; root:xnu-8792.62.2~1/RELEASE_ARM64_T8030",
+        .build_version = "20C65",
         .fileglob__fg_ops = 0x0,
         .fileglob__fg_data = 0x40 - 8,
         .fileops__fo_kqfilter = 0x30,
@@ -7903,6 +7924,7 @@ const struct dynamic_info kern_versions[] = {
   // iOS 16.2 //
     {
         .kern_version = "Darwin Kernel Version 22.2.0: Mon Nov 28 20:10:54 PST 2022; root:xnu-8792.62.2~1/RELEASE_ARM64_T8030",
+        .build_version = "20C65",
         .fileglob__fg_ops = 0x0,
         .fileglob__fg_data = 0x40 - 8,
         .fileops__fo_kqfilter = 0x30,
@@ -8385,6 +8407,7 @@ const struct dynamic_info kern_versions[] = {
   // iOS 16.2 //
     {
         .kern_version = "Darwin Kernel Version 22.2.0: Mon Nov 28 20:10:54 PST 2022; root:xnu-8792.62.2~1/RELEASE_ARM64_T8030",
+        .build_version = "20C65",
         .fileglob__fg_ops = 0x0,
         .fileglob__fg_data = 0x40 - 8,
         .fileops__fo_kqfilter = 0x30,
@@ -8865,6 +8888,7 @@ const struct dynamic_info kern_versions[] = {
   // iOS 16.6 Beta 1 //
     {
         .kern_version = "Darwin Kernel Version 22.6.0: Tue May  9 06:18:02 PDT 2023; root:xnu-8796.140.12.502.1~12/RELEASE_ARM64_T8030",
+        .build_version = "20G5026e",
         .fileglob__fg_ops = 0x28,
         .fileglob__fg_data = 0x40 - 8,
         .fileops__fo_kqfilter = 0x30,
@@ -8949,6 +8973,7 @@ const struct dynamic_info kern_versions[] = {
   // iOS 16.2 //
     {
         .kern_version = "Darwin Kernel Version 22.2.0: Mon Nov 28 20:10:15 PST 2022; root:xnu-8792.62.2~1/RELEASE_ARM64_T8020",
+        .build_version = "20C65",
         .fileglob__fg_ops = 0x0,
         .fileglob__fg_data = 0x40 - 8,
         .fileops__fo_kqfilter = 0x30,
@@ -9429,6 +9454,7 @@ const struct dynamic_info kern_versions[] = {
   // iOS 16.6 Beta 1 //
     {
         .kern_version = "Darwin Kernel Version 22.6.0: Tue May  9 06:18:00 PDT 2023; root:xnu-8796.140.12.502.1~12/RELEASE_ARM64_T8020",
+        .build_version = "20G5026e",
         .fileglob__fg_ops = 0x28,
         .fileglob__fg_data = 0x40 - 8,
         .fileops__fo_kqfilter = 0x30,
@@ -9511,6 +9537,7 @@ const struct dynamic_info kern_versions[] = {
   // iOS 16.2 //
     {
         .kern_version = "Darwin Kernel Version 22.2.0: Mon Nov 28 20:10:15 PST 2022; root:xnu-8792.62.2~1/RELEASE_ARM64_T8020",
+        .build_version = "20C65",
         .fileglob__fg_ops = 0x0,
         .fileglob__fg_data = 0x40 - 8,
         .fileops__fo_kqfilter = 0x30,
@@ -9911,6 +9938,7 @@ const struct dynamic_info kern_versions[] = {
   // iOS 16.6 Beta 1 //
     {
         .kern_version = "Darwin Kernel Version 22.6.0: Tue May  9 06:18:00 PDT 2023; root:xnu-8796.140.12.502.1~12/RELEASE_ARM64_T8020",
+        .build_version = "20G5026e",
         .fileglob__fg_ops = 0x28,
         .fileglob__fg_data = 0x40 - 8,
         .fileops__fo_kqfilter = 0x30,
@@ -9993,6 +10021,7 @@ const struct dynamic_info kern_versions[] = {
   // iOS 16.2 //
     {
         .kern_version = "Darwin Kernel Version 22.2.0: Mon Nov 28 20:10:15 PST 2022; root:xnu-8792.62.2~1/RELEASE_ARM64_T8020",
+        .build_version = "20C65",
         .fileglob__fg_ops = 0x0,
         .fileglob__fg_data = 0x40 - 8,
         .fileops__fo_kqfilter = 0x30,
@@ -10814,6 +10843,7 @@ const struct dynamic_info kern_versions[] = {
     // iOS 16.6 beta 1
     {
         .kern_version = "Darwin Kernel Version 22.6.0: Tue May  9 06:17:58 PDT 2023; root:xnu-8796.140.12.502.1~12/RELEASE_ARM64_T8103",
+        .build_version = "20G5026e",
         .fileglob__fg_ops = 0x28,
         .fileglob__fg_data = 0x40 - 8,
         .fileops__fo_kqfilter = 0x30,
@@ -10898,6 +10928,7 @@ const struct dynamic_info kern_versions[] = {
     // iOS 16.6 beta 1
     {
         .kern_version = "Darwin Kernel Version 22.6.0: Tue May  9 06:16:18 PDT 2023; root:xnu-8796.140.12.502.1~12/RELEASE_ARM64_T8110",
+        .build_version = "20G5026e",
         .fileglob__fg_ops = 0x28,
         .fileglob__fg_data = 0x40 - 8,
         .fileops__fo_kqfilter = 0x30,
@@ -11064,6 +11095,7 @@ const struct dynamic_info kern_versions[] = {
     // iOS 16.6 beta 1
     {
         .kern_version = "Darwin Kernel Version 22.6.0: Tue May  9 06:17:58 PDT 2023; root:xnu-8796.140.12.502.1~12/RELEASE_ARM64_T8103",
+        .build_version = "20G5026e",
         .fileglob__fg_ops = 0x28,
         .fileglob__fg_data = 0x40 - 8,
         .fileops__fo_kqfilter = 0x30,
