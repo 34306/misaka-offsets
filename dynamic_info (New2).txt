@@ -1222,7 +1222,6 @@ const struct dynamic_info kern_versions[] = {
           .kernelcache__vm_page_array_ending_addr = 0xfffffff00a558908,
           .kernelcache__vn_kqfilter = 0xfffffff007f6a0b8,
     },	
-
 };
 
 #endif /* dynamic_info_h */
