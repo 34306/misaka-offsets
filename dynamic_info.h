@@ -1,7 +1,3 @@
-/*
- * Copyright (c) 2023 Félix Poulin-Bélanger. All rights reserved.
- */
-
 #ifndef dynamic_info_h
 #define dynamic_info_h
 
@@ -806,10 +802,10 @@ const struct dynamic_info kern_versions[] = {
             .vm_map_entry__store__entry__rbe_right = 0x28,
             .vm_map_entry__store__entry__rbe_parent = 0x30,
             .vnode__v_un__vu_specinfo = 0x78,
-            ._vm_map__hdr__links__prev = 0x00 + 0x10,
-            ._vm_map__hdr__links__next = 0x08 + 0x10,
+            ._vm_map__hdr__links__prev = 0x10 + 0x10,
+            ._vm_map__hdr__links__next = 0x10 + 0x10,
             ._vm_map__hdr__links__start = 0x10 + 0x10,
-            ._vm_map__hdr__links__end = 0x18 + 0x10,
+            ._vm_map__hdr__links__end = 0x10 + 0x10,
             ._vm_map__hdr__nentries = 0x30,
             ._vm_map__hdr__rb_head_store__rbh_root = 0x38,
             ._vm_map__pmap = 0x40,
@@ -888,10 +884,10 @@ const struct dynamic_info kern_versions[] = {
             .vm_map_entry__store__entry__rbe_right = 0x28,
             .vm_map_entry__store__entry__rbe_parent = 0x30,
             .vnode__v_un__vu_specinfo = 0x78,
-            ._vm_map__hdr__links__prev = 0x00 + 0x10,
-            ._vm_map__hdr__links__next = 0x08 + 0x10,
+            ._vm_map__hdr__links__prev = 0x10 + 0x10,
+            ._vm_map__hdr__links__next = 0x10 + 0x10,
             ._vm_map__hdr__links__start = 0x10 + 0x10,
-            ._vm_map__hdr__links__end = 0x18 + 0x10,
+            ._vm_map__hdr__links__end = 0x10 + 0x10,
             ._vm_map__hdr__nentries = 0x30,
             ._vm_map__hdr__rb_head_store__rbh_root = 0x38,
             ._vm_map__pmap = 0x40,
@@ -970,10 +966,10 @@ const struct dynamic_info kern_versions[] = {
             .vm_map_entry__store__entry__rbe_right = 0x28,
             .vm_map_entry__store__entry__rbe_parent = 0x30,
             .vnode__v_un__vu_specinfo = 0x78,
-            ._vm_map__hdr__links__prev = 0x00 + 0x10,
-            ._vm_map__hdr__links__next = 0x08 + 0x10,
+            ._vm_map__hdr__links__prev = 0x10 + 0x10,
+            ._vm_map__hdr__links__next = 0x10 + 0x10,
             ._vm_map__hdr__links__start = 0x10 + 0x10,
-            ._vm_map__hdr__links__end = 0x18 + 0x10,
+            ._vm_map__hdr__links__end = 0x10 + 0x10,
             ._vm_map__hdr__nentries = 0x30,
             ._vm_map__hdr__rb_head_store__rbh_root = 0x38,
             ._vm_map__pmap = 0x40,
@@ -1052,10 +1048,10 @@ const struct dynamic_info kern_versions[] = {
             .vm_map_entry__store__entry__rbe_right = 0x28,
             .vm_map_entry__store__entry__rbe_parent = 0x30,
             .vnode__v_un__vu_specinfo = 0x78,
-            ._vm_map__hdr__links__prev = 0x00 + 0x10,
-            ._vm_map__hdr__links__next = 0x08 + 0x10,
+            ._vm_map__hdr__links__prev = 0x10 + 0x10,
+            ._vm_map__hdr__links__next = 0x10 + 0x10,
             ._vm_map__hdr__links__start = 0x10 + 0x10,
-            ._vm_map__hdr__links__end = 0x18 + 0x10,
+            ._vm_map__hdr__links__end = 0x10 + 0x10,
             ._vm_map__hdr__nentries = 0x30,
             ._vm_map__hdr__rb_head_store__rbh_root = 0x38,
             ._vm_map__pmap = 0x40,
@@ -1134,10 +1130,10 @@ const struct dynamic_info kern_versions[] = {
             .vm_map_entry__store__entry__rbe_right = 0x28,
             .vm_map_entry__store__entry__rbe_parent = 0x30,
             .vnode__v_un__vu_specinfo = 0x78,
-            ._vm_map__hdr__links__prev = 0x00 + 0x10,
-            ._vm_map__hdr__links__next = 0x08 + 0x10,
+            ._vm_map__hdr__links__prev = 0x10 + 0x10,
+            ._vm_map__hdr__links__next = 0x10 + 0x10,
             ._vm_map__hdr__links__start = 0x10 + 0x10,
-            ._vm_map__hdr__links__end = 0x18 + 0x10,
+            ._vm_map__hdr__links__end = 0x10 + 0x10,
             ._vm_map__hdr__nentries = 0x30,
             ._vm_map__hdr__rb_head_store__rbh_root = 0x38,
             ._vm_map__pmap = 0x40,
@@ -1323,7 +1319,7 @@ const struct dynamic_info kern_versions[] = {
             .kernelcache__vn_kqfilter = 0xfffffff007ec8c44
         },
        // End iOS 16.6 Beta 1 //
-
+// End iPhone XR //
     
     
     {
@@ -7997,7 +7993,7 @@ const struct dynamic_info kern_versions[] = {
     },
 
     // 11pro 16.6b1
-    {
+     {
         .kern_version = "Darwin Kernel Version 22.6.0: Tue May  9 06:18:02 PDT 2023; root:xnu-8796.140.12.502.1~12/RELEASE_ARM64_T8030",
         .fileglob__fg_ops = 0x28,
         .fileglob__fg_data = 0x40 - 8,
@@ -8077,6 +8073,7 @@ const struct dynamic_info kern_versions[] = {
         .kernelcache__vn_kqfilter = 0xfffffff007f6a588,
     },
     //iPad Pro 11" 4th Gen, 16.4.1
+    {
         .kern_version = "Darwin Kernel Version 22.4.0: Mon Mar  6 20:42:28 PST 2023; root:xnu-8796.102.5~1/RELEASE_ARM64_T8112",
         .fileglob__fg_ops = 0x28,
         .fileglob__fg_data = 0x40 - 8,
