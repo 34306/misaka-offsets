@@ -4,6 +4,7 @@
 struct dynamic_info {
     const char* kern_version;
     const char* build_version;
+    const char* device_id;
     // struct fileglob
     u64 fileglob__fg_ops;
     u64 fileglob__fg_data;
